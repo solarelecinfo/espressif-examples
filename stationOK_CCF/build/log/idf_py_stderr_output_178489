@@ -1,0 +1,845 @@
+Command: /home/administrateur/.espressif/python_env/idf5.5_py3.12_env/bin/python /home/administrateur/.espressif/v5.5.2/esp-idf/tools/idf_monitor.py -p /dev/ttyUSB0 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /home/administrateur/workspace/station/build/wifi_station.elf /home/administrateur/workspace/station/build/bootloader/bootloader.elf -m '/home/administrateur/.espressif/python_env/idf5.5_py3.12_env/bin/python' '/home/administrateur/.espressif/v5.5.2/esp-idf/tools/idf.py'
+[0;33m--- esp-idf-monitor 1.9.0 on /dev/ttyUSB0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[0m--- 0x40080400: [0;33m_stext[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is c2aa01aad30cf8d3f58c21bba8cc4dad164b9a178a0ca5bf76ba4f0e600dafa4[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: /home/administrateur/workspace/station/build/wifi_station.elf: file format not recognized
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[0m--- 0x40080400: [0;33m_stext[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is c2aa01aad30cf8d3f58c21bba8cc4dad164b9a178a0ca5bf76ba4f0e600dafa4[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is c2aa01aad30cf8d3f58c21bba8cc4dad164b9a178a0ca5bf76ba4f0e600dafa4[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is c2aa01aad30cf8d3f58c21bba8cc4dad164b9a178a0ca5bf76ba4f0e600dafa4[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0m--- 0x40081939: [0;33mpanicHandler[0m[0m at [0;32m/home/administrateur/.espressif/v5.5.2/esp-idf/components/esp_system/port/panic_handler.c[0m[0m:[1;31m300[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is c2aa01aad30cf8d3f58c21bba8cc4dad164b9a178a0ca5bf76ba4f0e600dafa4[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40078000: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40078000']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[0;33m--- Warning: ELF file not found. You need to build & flash the project before running 'monitor', and the binary on the device must match the one in the build directory exactly. [0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40078000: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40078000']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[0;33m--- Warning: ELF file not found. You need to build & flash the project before running 'monitor', and the binary on the device must match the one in the build directory exactly. [0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40078000: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40078000']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[0;33m--- Warning: ELF file not found. You need to build & flash the project before running 'monitor', and the binary on the device must match the one in the build directory exactly. [0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40078000: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40078000']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[0;33m--- Warning: ELF file not found. You need to build & flash the project before running 'monitor', and the binary on the device must match the one in the build directory exactly. [0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40078000: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40078000']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[0;33m--- Warning: ELF file not found. You need to build & flash the project before running 'monitor', and the binary on the device must match the one in the build directory exactly. [0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40078000: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40078000']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[0;33m--- Warning: ELF file not found. You need to build & flash the project before running 'monitor', and the binary on the device must match the one in the build directory exactly. [0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40078000: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40078000']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[0;33m--- Warning: ELF file not found. You need to build & flash the project before running 'monitor', and the binary on the device must match the one in the build directory exactly. [0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40078000: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40078000']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[0;33m--- Warning: ELF file not found. You need to build & flash the project before running 'monitor', and the binary on the device must match the one in the build directory exactly. [0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40078000: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40078000']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[0;33m--- Warning: ELF file not found. You need to build & flash the project before running 'monitor', and the binary on the device must match the one in the build directory exactly. [0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40078000: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40078000']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[0;33m--- Warning: ELF file not found. You need to build & flash the project before running 'monitor', and the binary on the device must match the one in the build directory exactly. [0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40078000: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40078000']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[0;33m--- Warning: ELF file not found. You need to build & flash the project before running 'monitor', and the binary on the device must match the one in the build directory exactly. [0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40078000: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40078000']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[0;33m--- Warning: ELF file not found. You need to build & flash the project before running 'monitor', and the binary on the device must match the one in the build directory exactly. [0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40078000: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40078000']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[0;33m--- Warning: ELF file not found. You need to build & flash the project before running 'monitor', and the binary on the device must match the one in the build directory exactly. [0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40078000: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40078000']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[0;33m--- Warning: ELF file not found. You need to build & flash the project before running 'monitor', and the binary on the device must match the one in the build directory exactly. [0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40078000: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40078000']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[0;33m--- Warning: ELF file not found. You need to build & flash the project before running 'monitor', and the binary on the device must match the one in the build directory exactly. [0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40078000: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40078000']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40081939: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40081939']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[0;33m--- Warning: ELF file not found. You need to build & flash the project before running 'monitor', and the binary on the device must match the one in the build directory exactly. [0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40078000: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40078000']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/wifi_station.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/wifi_station.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/wifi_station.elf', '0x40080644']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+/home/administrateur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-addr2line: '/home/administrateur/workspace/station/build/bootloader/bootloader.elf': No such file
+[1;31mxtensa-esp32-elf-addr2line -fiaC -e /home/administrateur/workspace/station/build/bootloader/bootloader.elf 0x40080644: Command '['xtensa-esp32-elf-addr2line', '-fiaC', '-e', '/home/administrateur/workspace/station/build/bootloader/bootloader.elf', '0x40080644']' returned non-zero exit statu

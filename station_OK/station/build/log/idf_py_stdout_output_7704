@@ -1,0 +1,71 @@
+Command: ninja flash
+[1/5] C:\Windows\system32\cmd.exe /C "cd /D C:\Users\user\workspace\station\build\esp-idf\esptool_py && python C:/Users/user/ESSPRESSIF-CUSTOM/Espressif/frameworks/esp-idf-v5.5.2/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Users/user/workspace/station/build/partition_table/partition-table.bin C:/Users/user/workspace/station/build/wifi_station.bin"
+wifi_station.bin binary size 0xb57e0 bytes. Smallest app partition is 0x100000 bytes. 0x4a820 bytes (29%) free.
+[2/5] Performing build step for 'bootloader'
+[1/1] C:\Windows\system32\cmd.exe /C "cd /D C:\Users\user\workspace\station\build\bootloader\esp-idf\esptool_py && python C:/Users/user/ESSPRESSIF-CUSTOM/Espressif/frameworks/esp-idf-v5.5.2/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Users/user/workspace/station/build/bootloader/bootloader.bin"
+Bootloader binary size 0x66c0 bytes. 0x940 bytes (8%) free.
+[3/5] No install step for 'bootloader'
+[4/5] Completed 'bootloader'
+[4/5] C:\Windows\system32\cmd.exe /C "cd /D C:\Users\user\ESSPRESSIF-CUSTOM\Espressif\frameworks\esp-idf-v5.5.2\components\esptool_py && C:\Users\user\ESSPRESSIF-CUSTOM\Espressif\tools\cmake\3.30.2\bin\cmake.exe -D IDF_PATH=C:/Users/user/ESSPRESSIF-CUSTOM/Espressif/frameworks/esp-idf-v5.5.2 -D SERIAL_TOOL=python;;C:/Users/user/ESSPRESSIF-CUSTOM/Espressif/frameworks/esp-idf-v5.5.2/components/esptool_py/esptool/esptool.py;--chip;esp32 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args -D WORKING_DIRECTORY=C:/Users/user/workspace/station/build -P C:/Users/user/ESSPRESSIF-CUSTOM/Espressif/frameworks/esp-idf-v5.5.2/components/esptool_py/run_serial_tool.cmake"
+esptool.py --chip esp32 -p COM7 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 wifi_station.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.11.0
+Serial port COM7
+Connecting.....
+Chip is ESP32-D0WD-V3 (revision v3.1)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: a4:f0:0f:81:6a:40
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x000c5fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+SHA digest in image updated
+Compressed 26304 bytes to 16552...
+Writing at 0x00001000... (50 %)
+Writing at 0x000075e6... (100 %)
+Wrote 26304 bytes (16552 compressed) at 0x00001000 in 0.8 seconds (effective 258.2 kbit/s)...
+Hash of data verified.
+Compressed 743392 bytes to 466151...
+Writing at 0x00010000... (3 %)
+Writing at 0x0001c66c... (6 %)
+Writing at 0x00025472... (10 %)
+Writing at 0x00030081... (13 %)
+Writing at 0x00035a44... (17 %)
+Writing at 0x0003ba7d... (20 %)
+Writing at 0x0004169a... (24 %)
+Writing at 0x0004759a... (27 %)
+Writing at 0x0004d0fa... (31 %)
+Writing at 0x00053221... (34 %)
+Writing at 0x00058ad4... (37 %)
+Writing at 0x0005e724... (41 %)
+Writing at 0x00063eed... (44 %)
+Writing at 0x000695ad... (48 %)
+Writing at 0x0006f076... (51 %)
+Writing at 0x00075028... (55 %)
+Writing at 0x0007a95b... (58 %)
+Writing at 0x000805dd... (62 %)
+Writing at 0x00086325... (65 %)
+Writing at 0x0008bd99... (68 %)
+Writing at 0x000919d1... (72 %)
+Writing at 0x000979e0... (75 %)
+Writing at 0x0009d44b... (79 %)
+Writing at 0x000a5aac... (82 %)
+Writing at 0x000ab9a1... (86 %)
+Writing at 0x000b1b0a... (89 %)
+Writing at 0x000b7553... (93 %)
+Writing at 0x000bd6eb... (96 %)
+Writing at 0x000c2b27... (100 %)
+Wrote 743392 bytes (466151 compressed) at 0x00010000 in 10.6 seconds (effective 561.7 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 374.1 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

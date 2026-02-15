@@ -1,0 +1,2 @@
+source /home/administrateur/workspace/station/build/gdbinit/symbols
+source /home/administrateur/workspace/station/build/gdbinit/connect
