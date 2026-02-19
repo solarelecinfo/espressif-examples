@@ -28,8 +28,8 @@
    If you'd rather not, just change the below entries to strings with
    the config you want - ie #define EXAMPLE_WIFI_SSID "mywifissid"
 */
-#define EXAMPLE_ESP_WIFI_SSID      "moto_4234"
-#define EXAMPLE_ESP_WIFI_PASS      "xxiwwwww"
+#define EXAMPLE_ESP_WIFI_SSID      "CCF1"
+#define EXAMPLE_ESP_WIFI_PASS      "abcd1234"
 #define EXAMPLE_ESP_MAXIMUM_RETRY  CONFIG_ESP_MAXIMUM_RETRY
 
 #if CONFIG_ESP_STATION_EXAMPLE_WPA3_SAE_PWE_HUNT_AND_PECK
@@ -184,8 +184,11 @@ static esp_err_t led_status_handler(httpd_req_t *req)
         resp = "{\"led\":0}";
     }
 
+	// Headers 
+	httpd_resp_set_hdr(req, "Connection", "close");
 	httpd_resp_set_hdr(req, "Access-Control-Allow-Origin", "*"); //Autorise requetes provenant du client non local
-    httpd_resp_set_type(req, "application/json");
+	httpd_resp_set_type(req, "application/json");
+	
     httpd_resp_send(req, resp, HTTPD_RESP_USE_STRLEN);
     return ESP_OK;
 }
@@ -196,8 +199,14 @@ static esp_err_t led_on_handler(httpd_req_t *req)
     gpio_set_level(LED_GPIO, 1);
     led_state = 1;
 
+	const char *resp = "LED ON";
+
+	// Headers 
+	httpd_resp_set_hdr(req, "Connection", "close");
 	httpd_resp_set_hdr(req, "Access-Control-Allow-Origin", "*");  // Ajout de l'en-tête CORS
-    httpd_resp_send(req, "LED ON", HTTPD_RESP_USE_STRLEN);
+	httpd_resp_set_type(req, "text/plain");
+	
+	httpd_resp_send(req, resp, HTTPD_RESP_USE_STRLEN);
     return ESP_OK;
 }
 
@@ -207,8 +216,14 @@ static esp_err_t led_off_handler(httpd_req_t *req)
     gpio_set_level(LED_GPIO, 0);
     led_state = 0;
 
+	const char *resp = "LED OFF";
+
+	// Headers 
+	httpd_resp_set_hdr(req, "Connection", "close");
 	httpd_resp_set_hdr(req, "Access-Control-Allow-Origin", "*");  // Ajout de l'en-tête CORS
-    httpd_resp_send(req, "LED OFF", HTTPD_RESP_USE_STRLEN);
+	httpd_resp_set_type(req, "text/plain");
+	  
+	httpd_resp_send(req, resp, HTTPD_RESP_USE_STRLEN);
     return ESP_OK;
 }
 
